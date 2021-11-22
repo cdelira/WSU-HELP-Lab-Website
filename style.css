@@ -1,0 +1,106 @@
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+  max-width: 280px;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+  color: #b94a48;
+}
+
+.field-validation-valid {
+  display: none;
+}
+
+input.input-validation-error {
+  border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+  border: 0 none;
+}
+
+.validation-summary-errors {
+  color: #b94a48;
+}
+
+.validation-summary-valid {
+  display: none;
+}
+
+/* Custom HELP Lab Colors*/
+.navbar {
+  background-color: #981e32 !important;
+  border-color: #981e32 !important;
+}
+
+.navbar .navbar-nav > li > a {
+  color: #ffffff;
+}
+
+.navbar .navbar-nav > li > a:hover {
+  background-color: #4d0000;
+}
+
+.navbar .navbar-brand {
+  color: #ffffff;
+}
+
+.navbar .navbar-nav > .active > a,
+.navbar .navbar-nav > .active > a:hover,
+.navbar .navbar-nav > .active > a:focus {
+  background-color: #4d0000;
+  color: #ffffff;
+}
+
+.jumbotron-special {
+  text-align: center;
+  background-color: #ffffff;
+}
+
+a {
+  color: #990000;
+}
+
+a:hover {
+  color: #4d0000;
+  text-decoration: none;
+}
+
+#map {
+  height: 400px;
+  width: 60%;
+}
+
+.header-section {
+  padding: 20px;
+  text-align: center;
+}
+
+.project-name {
+  padding: 20px;
+}
+
+.img-homepage {
+  display: block;
+  margin: 0 auto;
+}
+
+.button-hp {
+  display: block;
+  margin: 0 auto;
+  background-color: #981e32;
+  border-color: #981e32;
+}
+
+.img-responsive {
+  padding: 10px;
+}
+
+.directory {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
